@@ -1,0 +1,76 @@
+/* * {
+    border: 1px dotted red;
+} */
+@font-face {
+    font-family: PoiretOne;
+    src: url("../fonts/PoiretOne/PoiretOne.ttf");
+    font-size: larger;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url("../fonts/Roboto/Roboto-Light.ttf");
+}
+body {
+    display: inline-block;
+    max-width: max-content;
+    background-color: black;
+    color: aliceblue;
+    font-family: PoiretOne;
+    src: url("../fonts/PoiretOne/PoiretOne.ttf");
+    font-size: larger;
+
+    
+}
+.header {
+    display: inline-block;
+    width: 65%;
+    font-size: xx-large;
+    font-weight: bolder;
+    background-image: url("../images/Summer In The City.jpg") ;
+    background-repeat: no-repeat;
+    background-size: auto 120%;
+    height: 500px;
+}
+.part0 {
+    position: relative;
+    margin-left: 20px;
+    top: -125px;
+}
+
+.container1 {
+    display: inline-block;
+    width: 30%;
+    position: relative;
+    top: 120px;
+    right: 300px;
+}
+.stage {
+    width: 230px;
+    margin-left: 20px;
+}
+.stage-pic {
+    width: 250px;
+}
+.container2 {
+    display: inline-block;
+    max-width: 47%;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.container3 {
+    display: inline-block;
+    max-width: 52%;
+    position: relative;
+    top: -500px;
+    left: 300px;
+}
+.container5 {
+    display: inline-block;
+    max-width: 52%;
+    position: relative;
+    top: -350px;
+    left: 300px;
+}
